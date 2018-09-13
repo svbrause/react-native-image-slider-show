@@ -1,5 +1,5 @@
 {
-  "name": "react-native-slideshow",
+  "name": "react-native-image-slide-show",
   "version": "1.0.1",
   "description": "A quick and easy slideshow for react native.",
   "main": "Slideshow.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/haqiqiw/react-native-slideshow.git"
+    "url": "git+https://github.com/kamalpandey/react-native-image-slide-show.git"
   },
   "keywords": [
     "react",
     "native",
     "slideshow"
   ],
-  "author": "M. Asrof Bayhaqqi <masrofbayhaqqi@gmail.com>",
+  "author": "Kamal Pandey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/haqiqiw/react-native-slideshow/issues"
+    "url": "https://github.com/kamalpandey/react-native-image-slide-show/issues"
   },
-  "homepage": "https://github.com/haqiqiw/react-native-slideshow#readme"
+  "homepage": "https://github.com/kamalpandey/react-native-image-slide-show#readme"
 }

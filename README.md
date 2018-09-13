@@ -6,13 +6,13 @@ A quick and easy slideshow for react native. (Android & iOS)
 ## Installation
 
 ```bash
-npm install react-native-slideshow --save
+npm install react-native-image-slide-show --save
 ```
 
 ## Usage
 
 ```javascript
-import Slideshow from 'react-native-slideshow';
+import Slideshow from 'react-native-image-slide-show';
 
 // ...
 
@@ -98,6 +98,10 @@ export default class SlideshowTest extends Component {
 | `onPress` | func | optional | - | returns an object image and index of image pressed|
 | `onPositionChanged` | func | optional | - | called when the current position is changed |
 | `containerStyle` | object | optional | - | custom styles for container |
+| `titleStyle` | object | - | - | custom styles for title |
+| `captionStyle` | object | - | - | custom styles for caption |
+
+
 
 ### Data Structure
 

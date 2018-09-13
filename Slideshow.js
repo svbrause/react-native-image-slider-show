@@ -195,8 +195,8 @@ export default class Slideshow extends Component {
             const imageObject = typeof image.url === 'string' ? {uri: image.url} : image.url;
             const textComponent = (
               <View style={styles.layoutText}>
-                {image.title === undefined ? null : <Text style={styles.textTitle}>{image.title}</Text>}
-                {image.caption === undefined ? null : <Text style={styles.textCaption}>{image.caption}</Text>}
+                {image.title === undefined ? null : <Text style={this.props.titleStyle}>{image.title}</Text>}
+                {image.caption === undefined ? null : <Text style={this.props.captionStyle}>{image.caption}</Text>}
               </View>
             );
             const imageComponent = (
@@ -264,7 +264,7 @@ export default class Slideshow extends Component {
         <View 
           style={[
             layoutArrow(this.props.height, this.props.arrowSize), 
-            { left: 10 },
+            { left: 10, height: 50 },
           ]}>
           <TouchableOpacity
             onPress={() => this._prev()}>
@@ -285,7 +285,7 @@ export default class Slideshow extends Component {
         <View 
           style={[
             layoutArrow(this.props.height, this.props.arrowSize), 
-            { right: 10 },
+            { right: 10, height: 50 },
           ]}>
           <TouchableOpacity
             onPress={() => this._next()}>
