@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kamalpandey/react-native-image-slide-show.git"
+    "url": "git+https://github.com/kamalpandey/react-native-image-slider-show.git"
   },
   "keywords": [
     "react",
@@ -18,7 +18,7 @@
   "author": "Kamal Pandey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kamalpandey/react-native-image-slide-show/issues"
+    "url": "https://github.com/kamalpandey/react-native-image-slider-show/issues"
   },
-  "homepage": "https://github.com/kamalpandey/react-native-image-slide-show#readme"
+  "homepage": "https://github.com/kamalpandey/react-native-image-slider-show#readme"
 }

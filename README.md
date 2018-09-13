@@ -1,4 +1,4 @@
-# react-native-slideshow
+# react-native-image-slider-show
 A quick and easy slideshow for react native. (Android & iOS)
 
 ![GIF](demo1.gif) ![GIF](demo2.gif)
@@ -6,13 +6,13 @@ A quick and easy slideshow for react native. (Android & iOS)
 ## Installation
 
 ```bash
-npm install react-native-image-slide-show --save
+npm install react-native-image-slider-show --save
 ```
 
 ## Usage
 
 ```javascript
-import Slideshow from 'react-native-image-slide-show';
+import Slideshow from 'react-native-image-slider-show';
 
 // ...
 
