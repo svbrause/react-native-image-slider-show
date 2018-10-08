@@ -203,7 +203,7 @@ export default class Slideshow extends Component {
               <View key={index}>
                 <Image
                   source={imageObject}
-                  style={{height, width}} resizeMode="stretch" />
+                  style={{height, width}} resizeMode="cober" />
                 {textComponent}
               </View>
             );
@@ -212,7 +212,7 @@ export default class Slideshow extends Component {
                 <View style={styles.overlay}>
                   <Image
                     source={imageObject}
-                    style={{height, width}} resizeMode="stretch" />
+                    style={{height, width}} resizeMode="cover" />
                 </View>
                 {textComponent}
               </View>
