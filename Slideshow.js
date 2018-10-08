@@ -203,7 +203,7 @@ export default class Slideshow extends Component {
               <View key={index}>
                 <Image
                   source={imageObject}
-                  style={{height, width}} resizeMode="cober" />
+                  style={{height, width}} resizeMode="cover" />
                 {textComponent}
               </View>
             );
