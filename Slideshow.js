@@ -192,7 +192,7 @@ export default class Slideshow extends Component {
           horizontal={true}
           showsHorizontalScrollIndicator={false}
           scrollEnabled={this.props.scrollEnabled}
-          {...this._panResponder.panHandlers}
+          {...(this._panResponder && this._panResponder.panHandlers)}
           style={[styles.container, { height: height }]}
         >
           {this.props.dataSource.map((image, index) => {
